@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+:root {
+  --yellow: #f5c32c;
+  --blue: blue;
+  --black: #242d49;
+  --gray: #788097;
+  --blueCard: #ddf8fe;
+  --purple: rgb(238 210 255);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --blueCard: blue;
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  padding: 0.5rem 3.5rem;
+  overflow: hidden;
+  color: var(--black);
+}
+
+.button {
+  background: linear-gradient(180deg, blue 26.71%, blue 99.36%);
+  box-shadow: 0px 0px 24px 3px blue;
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 11px 26px 11px 26px;
+}
+
+.button:hover {
+  background: white;
+  cursor: pointer;
+  border: 1px solid var(--orange);
+  color: var(--orange);
+}
+@media screen and (max-width: 480px) {
+  .App {
+    padding: 0.5rem 1rem;
+  }
+}
